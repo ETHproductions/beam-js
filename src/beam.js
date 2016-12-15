@@ -176,7 +176,7 @@ var Beam = {
 				running = false;
 			}
 			++iterations;
-			if (iterations > Beam.MAX_ITERS) {
+			if (iterations > MAX_ITERS) {
 				running = false;
 			}
 		}
